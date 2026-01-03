@@ -1,0 +1,14 @@
+{
+  "name": "farcaster-tetris-frame",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "frog dev",
+    "build": "frog build",
+    "start": "frog start"
+  },
+  "dependencies": {
+    "frog": "^0.12.0",
+    "hono": "^4.0.0"
+  }
+}
