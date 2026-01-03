@@ -3,12 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "frog dev",
-    "build": "frog build",
-    "start": "frog start"
+    "build": "echo 'skip build'",
+    "start": "node api/index.ts"
   },
   "dependencies": {
-    "frog": "^0.12.0",
+    "frog": "^0.12.3",
     "hono": "^4.0.0"
   }
 }
